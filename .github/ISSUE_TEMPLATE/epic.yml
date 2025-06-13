@@ -1,0 +1,68 @@
+---
+name: Epic story
+description: Define an Epic for the Dependency Analytics project
+type: "Epic"
+projects: ["trustification/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to define a new epic for the project. Please provide comprehensive information to ensure proper planning and execution.
+
+  - type: input
+    id: epic-title
+    attributes:
+      label: Epic Title
+      description: A clear, concise title for the epic
+    validations:
+      required: true
+
+  - type: textarea
+    id: epic-description
+    attributes:
+      label: Epic Description
+      description: Provide a detailed description of the epic, including its goals and expected outcomes
+    validations:
+      required: true
+
+  - type: textarea
+    id: business-objectives
+    attributes:
+      label: Business Objectives
+      description: What are the key business objectives this epic addresses? How does it align with our product roadmap?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define the scope of work, including what is in and out of scope
+    validations:
+      required: true
+
+  - type: textarea
+    id: success-criteria
+    attributes:
+      label: Success Criteria
+      description: What does success look like? List measurable outcomes and acceptance criteria
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical-requirements
+    attributes:
+      label: Technical Requirements
+      description: Key technical requirements, dependencies, and implementation considerations
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: List any dependencies on other epics, teams, or external factors
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and Mitigations
+      description: Identify potential risks and proposed mitigation strategies
