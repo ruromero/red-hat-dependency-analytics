@@ -1,0 +1,64 @@
+---
+name: User Story
+description: Define a user story for the Dependency Analytics project
+type: "User Story"
+projects: ["trustification/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to define a user story. Focus on the user's needs and goals rather than implementation details.
+
+  - type: input
+    id: story-title
+    attributes:
+      label: Story Title
+      description: A clear, concise title that captures the essence of the story
+    validations:
+      required: true
+
+  - type: textarea
+    id: persona
+    attributes:
+      label: Persona
+      description: |
+        Describe the user persona this story addresses:
+        - Who is the user?
+        - What is their role?
+        - What are their goals?
+        - What are their pain points?
+        - What is their technical expertise level?
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      description: |
+        Write the story in the format:
+        "As a [type of user], I want [goal] so that [benefit]"
+        
+        Then provide additional context:
+        - What is the current situation?
+        - What is the desired outcome?
+        - What are the key interactions?
+        - What are the constraints?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: |
+        List the specific criteria that must be met for this story to be considered complete:
+        - What are the functional requirements?
+        - What are the non-functional requirements?
+        - What are the edge cases to consider?
+        - What are the performance requirements?
+        
+        Format each criterion as:
+        "Given [context], when [action], then [result]"
+    validations:
+      required: true
